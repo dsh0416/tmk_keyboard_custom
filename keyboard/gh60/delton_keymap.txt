@@ -1,25 +1,19 @@
-["esc","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"backspace"],
-[{w:1.5},"tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
-[{w:1.75},"lcontrol","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"return"],
+["~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"|\n\\"],
+[{w:1.5},"tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"backspace"],
+[{w:1.75},"fn5","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"return"],
 [{w:2.25},"lshift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.75},"rshift"],
 [{w:1.25},"fn0",{w:1.25},"loption",{w:1.25},"lcomm",{w:6.25},"space",{w:1.25},"rcomm",{w:1.25},"roption",{w:1.25},"esc",{w:1.25},"fn1"]
 
-["~\n`","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12",{w:2},"del"],
-[{w:1.5},"caps","prev","play","next",{a:7},"","","","","","","","","",{a:4,w:1.5},"insert"],
-[{w:1.75},"lcontrol","vol_dn","mute","vol_up",{a:7},"","",{a:4},"left","down","right","up","page down","page up",{w:2.25},"home"],
+["esc","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12",{w:2},"insert"],
+[{w:1.5},"caps","prev","play","next",{a:7},"","","","","","","","","",{a:4,w:1.5},"delete"],
+[{a:7,w:1.75},"",{a:4},"vol_dn","mute","vol_up",{a:7},"","",{a:4},"left","down","right","up","page down","page up",{w:2.25},"home"],
 [{w:2.25},"lshift","fn2","fn3","fn4",{a:7},"","","",{a:4},"+","-","*","/",{w:2.75},"rshift"],
 [{a:7,w:1.25},"",{a:4,w:1.25},"loption",{w:1.25},"lcomm",{w:6.25},"space",{w:1.25},"rcomm",{w:1.25},"roption",{w:1.25},"esc",{a:7,w:1.25},""]
 
 [{a:7},"","","","","","","","","","","","","",{w:2},""],
-[{w:1.5},"","","","","","","",{a:4},"&\n7","*\n8","(\n9",{a:7},"","","",{w:1.5},""],
-[{w:1.75},"","","","","","","",{a:4},"$\n4","%\n5","^\n6",{a:7},"","",{a:4,w:2.25},"end"],
-[{a:7,w:2.25},"","","","","","",{a:4},")\n0","!\n1","@\n2","#\n3","up",{a:7,w:2.75},""],
+[{w:1.5},"",{a:4},"&\n7","*\n8","(\n9",{a:7},"","","","","","","","","",{w:1.5},""],
+[{w:1.75},"",{a:4},"$\n4","%\n5","^\n6",{a:7},"","","","","","","","",{a:4,w:2.25},"end"],
+[{a:7,w:2.25},"",{a:4},"!\n1","@\n2","#\n3",")\n0",{a:7},"","","","","",{a:4},"up",{a:7,w:2.75},""],
 [{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:6.25},"",{a:4,w:1.25},"left",{w:1.25},"down",{w:1.25},"right",{a:7,w:1.25},""]
 
-"0":["ACTION_LAYER_MOMENTARY",1],"1":["ACTION_LAYER_MOMENTARY","2"],"2":["ACTION_BACKLIGHT_DECREASE"],"3":["ACTION_BACKLIGHT_TOGGLE"],"4":["ACTION_BACKLIGHT_INCREASE"]
-
-[{a:0},"esc\n\n\n\n`","!\n1\n\n\nF1","@\n2\n\n\nF2","#\n3\n\n\nF3","$\n4\n\n\nF4","%\n5\n\n\nF5","^\n6\n\n\nF6","&\n7\n\n\nF7","*\n8\n\n\nF8","(\n9\n\n\nF9",")\n0\n\n\nF10","_\n-\n\n\nF11","+\n=\n\n\nF12",{w:2},"|\n\\\n\n\ninsert"],
-[{w:1.5},"tab\n\n\n\ncaps lock","Q\n\n\n\nprev","W\n\n\n\npause","E\n\n\n\nnext",{a:4},"R","T","Y",{a:0},"U\n\n\n\n\n7","I\n\n\n\n\n8","O\n\n\n\n\n9",{a:4},"P","{\n[","}\n]",{a:0,w:1.5},"backspace\n\n\n\ndelete"],
-[{a:4,w:1.75},"control",{a:0},"A\n\n\n\nvol_up","S\n\n\n\nmute","D\n\n\n\nvol_dn",{a:4},"F","G",{a:0},"H\n\n\n\n←","J\n\n\n\n↓\n4","K\n\n\n\n→\n5","L\n\n\n\n↑\n6",":\n;\n\n\npg_up","\"\n'\n\n\npg_dn",{w:2.25},"return\n\n\n\nhome\nend"],
-[{a:4,w:2.25},"shift",{a:0},"Z\n\n\n\nled_dn","X\n\n\n\ntoggle","C\n\n\n\nled_up",{a:4},"V","B",{a:0},"N\n\n\n\n\n0","M\n\n\n\n+\n1","<\n,\n\n\n-\n2",">\n.\n\n\n*\n3","?\n/\n\n\n/\n↑",{a:4,w:2.75},"shift"],
-[{w:1.25},"fn",{w:1.25},"option",{w:1.25},"super",{w:6.25},"space",{a:0,w:1.25},"super\n\n\n\n\n←",{w:1.25},"option\n\n\n\n\n↓",{w:1.25},"esc\n\n\n\n\n→",{a:4,w:1.25},"fn1"]
+"0":["ACTION_LAYER_MOMENTARY",1],"1":["ACTION_LAYER_MOMENTARY","2"],"2":["ACTION_BACKLIGHT_DECREASE"],"3":["ACTION_BACKLIGHT_TOGGLE"],"4":["ACTION_BACKLIGHT_INCREASE"],"5":["ACTION_MODS_TAP_KEY","LR_LEFT",["MOD_CTL"],"KC_ESCAPE"]
